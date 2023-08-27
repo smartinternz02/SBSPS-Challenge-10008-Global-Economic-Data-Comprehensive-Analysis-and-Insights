@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #cognos{
+            background-color: #F5CBA7;
+            color: darkblue;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+    </style>
+</head>
+<body style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRKruRm5OmbNCOCOAwq2mVfEP-jc5D2r-kFg&usqp=CAU'); background-size: cover; background-repeat: no-repeat;">
+    <header>
+        <!-- Header content here -->
+    </header>
+    
+    <section id="cognos">
+        <h1>EXPLORE COGNOS VISUALIZATIONS</h1>
+    </section>
+
+    <h1 style="background-color: #BFC9CA; color: #1A5276; padding: 20px;">UNEMPLOYEMENT</h1>
+    <section id="cognos">       
+       <iframe src="https://eu1.ca.analytics.ibm.com/bi/?perspective=explore&amp;pathRef=.my_folders%2Funemployement&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;subView=model0000018a2c869544_00000004" width="1450" height="725" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+   </section>
+
+    <h1 style="background-color: #BFC9CA; color: #1A5276; padding: 20px;">RICHEST COUNTRIES</h1>
+    <section id="cognos">
+        <iframe src="https://eu1.ca.analytics.ibm.com/bi/?perspective=explore&amp;pathRef=.my_folders%2Frichest%2Bcountries&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;subView=model0000018a2c897c3f_00000004" width="1450" height="725" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+     </section>
+
+    <h1 style="background-color: #BFC9CA; color: #1A5276; padding: 20px;">TOURISM</h1>
+    <section id="cognos">       
+       <iframe src="https://eu1.ca.analytics.ibm.com/bi/?perspective=explore&amp;pathRef=.my_folders%2Ftourist&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;subView=model0000018a2caa812b_00000003" width="14500" height="725" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+   </section>
+
+    <h1 style="background-color: #BFC9CA; color: #1A5276; padding: 20px;">CORRUPTION</h1>
+     <section id="cognos">       
+       <iframe src="https://eu1.ca.analytics.ibm.com/bi/?perspective=explore&amp;pathRef=.my_folders%2Fcorruption&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;subView=model0000018a2cadc953_00000004" width="1450" height="725" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+    </section>
+
+    <h1 style="background-color: #BFC9CA; color: #1A5276; padding: 20px;">COST OF LIVING</h1>
+    <section id="cognos">       
+      <iframe src="https://eu1.ca.analytics.ibm.com/bi/?perspective=explore&amp;pathRef=.my_folders%2Fcost%2Bof%2Bliving&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;subView=model0000018a2cfb5c4a_00000004" width="1450" height="725" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+   </section>
+
+
+    <footer>
+        <p>&copy; 2023 Cognos Visualizations Ltd.</p>
+    </footer>
+    <script>
+           // JavaScript code for color effects
+     // JavaScript code for color effects
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('mouseover', function () {
+                this.style.color = 'red'; // Change color on hover
+            });
+
+            anchor.addEventListener('mouseout', function () {
+                this.style.color = '#007bff'; // Restore color after hover
+            });
+        });
+
+        document.querySelectorAll('section').forEach(section => {
+            section.addEventListener('mouseover', function () {
+                this.style.backgroundColor = '#48D1CC'; // Change background color on hover
+            });
+
+            section.addEventListener('mouseout', function () {
+                this.style.backgroundColor = ''; // Restore background color after hover
+            });
+        });
+    </script>
+</body>
+</html>
